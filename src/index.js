@@ -1,5 +1,9 @@
-console.log('We are good to go.');
-import html from '/html.js';
+console.log('We are very good to go.');
+import { html, htmlTwo, quest } from './html.js';
+
 
 html();
 
+htmlTwo();
+
+quest();

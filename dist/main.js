@@ -1,1 +1,1 @@
-console.log("We are good to go.");
+(()=>{"use strict";console.log("We are very good to go."),console.log("I am not called from html.js!"),console.log("I am called from html.js!"),console.log("question")})();
