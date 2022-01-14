@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("We are very good to go."),console.log("I am not called from html.js!"),console.log("I am called from html.js!"),console.log("question")})();
+(()=>{"use strict";(()=>{const e=document.getElementById("content"),t=document.createElement("h1");e.appendChild(t),t.textContent="Salim Restaurant"})(),console.log("I am called from html.js!"),console.log("question maybe")})();
