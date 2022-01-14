@@ -3,6 +3,11 @@ const html = () => {
     const title = document.createElement('h1');
     content.appendChild(title);
     title.textContent = 'Salim Restaurant';
+    
+    /*const tagline = document.createElement('h2');
+    content.appendChild(tagline);
+    tagline.textContent = 'Where healthy food tastes great!';
+*/
 };
 
 export function htmlTwo() {
@@ -10,7 +15,7 @@ export function htmlTwo() {
 }
 
 export function quest() {
-    console.log('question');
+    console.log('question maybe again');
 }
 
-export html(); 
+export default html; 
