@@ -1,4 +1,4 @@
-import { html as default, htmlTwo, quest } from './html.js';
+import { html, htmlTwo, quest } from './html.js';
 
 
 
