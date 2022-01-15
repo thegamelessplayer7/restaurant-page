@@ -3,8 +3,10 @@ import { menu } from './menu.js';
 import { contact } from './contact.js';
 
 const content = document.getElementById('content');
+
+
 const navBar = document.createElement('nav');
-content.appendChild(navBar);
+document.body.insertBefore(navBar, content);
 const ulNav = document.createElement('ul');
 navBar.appendChild(ulNav);
 const liOne = document.createElement('li');
@@ -18,13 +20,26 @@ ulNav.appendChild(liThree);
 liThree.textContent = 'Contact';
 
 
-liOne.addEventListener('click', function() {
-    console.log('This is a test');
-});
+
+liOne.addEventListener('click', homePage);
 
 
-liTwo.addEventListener('click', menu());
+liTwo.addEventListener('click', menuPage);
 
-liThree.addEventListener('click', contact());
+liThree.addEventListener('click', contactPage);
 
 
+function homePage() {
+    content.textContent = '';
+    html();
+}
+
+function menuPage() {
+    content.textContent = '';
+    menu();
+}
+
+function contactPage() {
+    content.textContent = '';
+    contact();
+}

@@ -41,5 +41,5 @@ export const menu = () => {
 
     const hickorySmokePara = document.createElement('p');
     content.appendChild(hickorySmokePara);
-    hickorySmokePara.textContent = 'Made with BBQ sauce, chicken, mushrooms & caramelized onions.';
+    hickorySmokePara.textContent = 'Made with BBQ sauce, chicken, mushrooms & caramelized'
 }
