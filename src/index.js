@@ -20,6 +20,10 @@ ulNav.appendChild(liThree);
 liThree.textContent = 'Contact';
 
 
+document.addEventListener('DOMContentLoaded', function(event) {
+    homePage();
+})
+
 
 liOne.addEventListener('click', homePage);
 
