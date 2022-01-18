@@ -4,7 +4,6 @@ import { contact } from './contact.js';
 
 const content = document.getElementById('content');
 
-
 const navBar = document.createElement('nav');
 document.body.insertBefore(navBar, content);
 const ulNav = document.createElement('ul');
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 
 liOne.addEventListener('click', homePage);
-
 
 liTwo.addEventListener('click', menuPage);
 
